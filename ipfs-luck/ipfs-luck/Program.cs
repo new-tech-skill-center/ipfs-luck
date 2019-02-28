@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace ipfs_luck
 {
-    static class Program
+    class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -15,7 +15,7 @@ namespace ipfs_luck
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainWindow());
         }
     }
 }
